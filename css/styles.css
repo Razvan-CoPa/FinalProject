@@ -71,3 +71,19 @@ ul.contactItems a {
     left: 0;
     top: 41px;
 }
+
+.mainimg {
+    position: relative;
+    height: 700px;
+    background-image: url('../images/img1.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    margin-top: 0%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    z-index: 1; 
+}
