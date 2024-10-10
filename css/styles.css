@@ -35,10 +35,6 @@ body {
   }
 }
 
-ul {
-  list-style-type: none;
-}
-
 img {
   display: block;
 }
@@ -335,7 +331,7 @@ a.main-link::after {
   font-size: 16px;
   line-height: 1.5em; /* 150% */
   letter-spacing: 0.32px;
-  width: 264px;
+  width: 310px;
 }
 
 @media screen and (max-width: 767px) {
@@ -1528,7 +1524,26 @@ label {
 
 /* -------------CONTACT STYLING-------------- */
 
-.nav-bar .menuItems {
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+ul{
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 24px 156px;
+  border-bottom: 2px solid #E7E9FC;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.menuItems {
   font-weight: 500;
   size: 16px;
   line-height: 24px;
@@ -1538,6 +1553,7 @@ label {
   height: 72px;
   border: 1px;
 }
+
 
 ul.menuItems {
   font-weight: 500;
@@ -1577,7 +1593,7 @@ ul.contactItems a {
   position: absolute;
   border-radius: 6px;
   left: 0;
-  top: 41px;
+  top: 44px;
 }
 
 .mainimg {
