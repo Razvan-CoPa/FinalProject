@@ -1,0 +1,305 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image-background {
+    width: 100%;
+    height: 600px;
+    /* Sau ajustați înălțimea după preferință */
+    background-image: url('images/gina5.jpg');
+    /* Înlocuiește cu calea către imaginea ta */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #3463bb;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #3463bb;
+    color: white;
+    padding: 10px 0;
+}
+
+.nav-bar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+ul.menuItems,
+ul.contactItems {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+ul.menuItems li {
+    margin: 0 15px;
+}
+
+ul.menuItems li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+ul.menuItems li a:hover {
+    color: #000000;
+}
+
+ul.contactItems li {
+    margin-left: 20px;
+}
+
+ul.contactItems li a {
+    color: white;
+    text-decoration: none;
+}
+
+.text-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.text-container h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+    background-color: #3463bb;
+}
+
+/* Course Info Section */
+.course-info {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.course-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.course-info p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.buy-btn {
+    background-color: #3463bb;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+    background-color: #333;
+}
+
+/* Image Section */
+.image-item {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.image-item img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.image-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Modules Section */
+.modules {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.modules h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.module {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.module h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.module p,
+.module ul {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.module ul {
+    list-style: disc inside;
+}
+
+/* Instructor Section */
+.instructor {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.instructor h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.instructor img {
+    border-radius: 50%;
+    margin: 20px 0;
+    object-fit:scale-down;
+}
+
+.instructor p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    margin-top: 30px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-container div {
+    flex: 1;
+    padding: 10px 20px;
+}
+
+.footer-container h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #3463bb;
+}
+
+.footer-container p,
+.footer-container ul {
+    font-size: 1em;
+    color: white;
+}
+
+.footer-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-container ul li {
+    margin-bottom: 10px;
+}
+
+.footer-container ul li a {
+    color: #3463bb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-container ul li a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-bar nav {
+        flex-direction: column;
+    }
+
+    ul.menuItems,
+    ul.contactItems {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-container h1 {
+        font-size: 1.8em;
+    }
+
+    .course-info h2,
+    .modules h2,
+    .instructor h2 {
+        font-size: 1.8em;
+    }
+
+    .module {
+        padding: 10px;
+    }
+
+    .buy-btn {
+        padding: 8px 20px;
+        font-size: 1em;
+    }
+
+    .footer-container div {
+        padding: 10px 0;
+    }
+}
