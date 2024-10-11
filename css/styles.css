@@ -1640,19 +1640,7 @@ ul.contactItems a {
   z-index: 3;
 }
 
-.footer-bottom {
-  text-align: center;
-  margin-top: 20px;
-  border-top: 1px solid #444;
-  padding-top: 10px;
-}
 
-.footer-bottom p {
-  font-size: 0.9em;
-  color: #ccc;
-}
-
-/* de lucrat varianta de mobil */
 
 /*------------------------------ machine learning section ---------------------------*/
 .bkg-image {
