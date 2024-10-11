@@ -284,13 +284,15 @@ a.main-link::after {
   content: "";
   display: block;
   width: 100%;
-  height: 4px;
-  border-radius: 2px;
+  height: 5px;
+  border-radius: 6px;
   background-color: var(--ocean, #404bbf);
   position: absolute;
-  bottom: -4px;
+  bottom: -2px;
   left: 0;
 }
+
+
 
 /* Site Footer */
 
@@ -1522,43 +1524,33 @@ label {
   letter-spacing: 0.4px;
 }
 
-/* -------------CONTACT STYLING-------------- */
-
-* {
-  font-family: "Roboto", sans-serif;
-}
+/* -------------------------------------------------CONTACT STYLING--------------------------------------------- */
 
 ul{
   list-style-type: none;
 }
 
-nav {
+.nav-bar {
+  width: 100%;
+  height: 72px;
+  border: 1px;
   display: flex;
   align-items: center;
   padding: 24px 156px;
   border-bottom: 2px solid #E7E9FC;
 }
 
-nav a {
+.nav-bar a {
   text-decoration: none;
 }
 
 .menuItems {
+  align-items: center;
+  display: flex;
   font-weight: 500;
   size: 16px;
   line-height: 24px;
-}
-
-.nav-bar {
-  height: 72px;
-  border: 1px;
-}
-
-
-ul.menuItems {
-  font-weight: 500;
   width: 261px;
-  display: flex;
   justify-content: space-between;
   margin-left: 40px;
 }
@@ -1568,6 +1560,7 @@ ul.menuItems a {
 }
 
 ul.contactItems {
+  justify-content: center;
   display: flex;
   margin-left: auto;
   gap: 20px;
@@ -1593,7 +1586,7 @@ ul.contactItems a {
   position: absolute;
   border-radius: 6px;
   left: 0;
-  top: 44px;
+  top: 41px;
 }
 
 .mainimg {
@@ -1611,19 +1604,12 @@ ul.contactItems a {
   z-index: 1; 
 }
 
-.contact-title {
+.contact_title {
   font-style: italic;
   display: flex;
   margin: 0px;
   font-size: 3.75rem;
   line-height: 1;
-  /* padding-top: 100px;
-  padding-left: 156px; */
-}
-
-h2 {
-  padding: 0%;
-  margin: 0%;
 }
 
 .costumer-service {
@@ -1653,3 +1639,5 @@ h2 {
   margin: 0px;
   z-index: 3;
 }
+
+/* de lucrat varianta de mobil */
