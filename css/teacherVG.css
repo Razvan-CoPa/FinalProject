@@ -8,7 +8,7 @@
     width: 100%;
     height: 600px;
     /* Sau ajustați înălțimea după preferință */
-    background-image: url('images/gina5.jpg');
+    background-image: url('../images/gina5.jpg');
     /* Înlocuiește cu calea către imaginea ta */
     background-size: cover;
     background-position: center;
@@ -185,8 +185,9 @@ ul.contactItems li a {
 
 .instructor img {
     border-radius: 50%;
-    margin: 20px 0;
-    object-fit:scale-down;
+    margin: auto;
+    object-fit: scale-down;
+    align-items: center;
 }
 
 .instructor p {
