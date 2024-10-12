@@ -707,7 +707,7 @@ a.main-link::after {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/people-office-mobile.jpg);
+    url("../images/hero/cursuri.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -730,7 +730,7 @@ a.main-link::after {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/hero/people-office-mobile@2x.jpg");
+      url("../images/hero/cursuri.jpg");
   }
 }
 
@@ -741,7 +741,7 @@ a.main-link::after {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/hero/people-office-tablet.jpg");
+      url("../images/hero/cursuri.jpg");
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -752,7 +752,7 @@ a.main-link::after {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url("../images/hero/people-office-tablet@2x.jpg");
+        url("../images/hero/cursuri.jpg");
     }
   }
 }
@@ -774,7 +774,7 @@ a.main-link::after {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url("../images/hero/people-office-desktop@2x.jpg");
+        url("../images/hero/cursuri.jpg");
     }
   }
 }
