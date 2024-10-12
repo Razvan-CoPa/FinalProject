@@ -1602,7 +1602,6 @@ ul.contactItems a {
   margin-left: auto;
   height: 1000px;
   width: 1000px;
-  position: relative;
   background-image: url("../images/contact_img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1610,7 +1609,6 @@ ul.contactItems a {
   display: flex;
   margin-top: 8px;
   margin-right: 25px;
-  z-index: 1;
 }
 
 .contact_title {
@@ -1622,6 +1620,7 @@ ul.contactItems a {
 }
 
 .costumer-service {
+  flex-direction: column;
   font-weight: 500;
   margin: 0%;
   padding: 0%;
@@ -1632,6 +1631,11 @@ ul.contactItems a {
   font-size: 1.5rem;
   line-height: 2rem;
   z-index: 2;
+}
+
+.costumer-service a {
+  color: #434455;
+  text-decoration: none;
 }
 
 .head-quarter {
