@@ -1613,6 +1613,31 @@ ul.contactItems a {
   margin-right: 25px;
 }
 
+@media screen and (min-width: 320px) {
+  .mainimg {
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .mainimg {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mainimg {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .mainimg {
+    width: 1158px;
+    padding: 0 15px;
+  }
+}
+
 .contact_title {
   font-style: italic;
   display: flex;
@@ -1725,6 +1750,7 @@ ul.contactItems a {
 }
 
 .image-item {
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
   gap: 90px;
