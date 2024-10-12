@@ -113,7 +113,6 @@ button:focus {
   letter-spacing: 0.72px;
   margin-bottom: 8px;
   display: inline-block;
-
 }
 .heading-section img {
   text-align: center;
@@ -122,7 +121,6 @@ button:focus {
   place-items: center;
   justify-content: center;
   align-items: center;
-  
 }
 
 @media screen and (min-width: 768px) {
@@ -910,6 +908,10 @@ a.main-link::after {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-image {
+  object-fit: cover;
 }
 
 .team-image-caption {
