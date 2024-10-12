@@ -292,8 +292,6 @@ a.main-link::after {
   left: 0;
 }
 
-
-
 /* Site Footer */
 
 .dark-bg-footer {
@@ -1526,7 +1524,7 @@ label {
 
 /* -------------------------------------------------CONTACT STYLING--------------------------------------------- */
 
-ul{
+ul {
   list-style-type: none;
 }
 
@@ -1537,7 +1535,7 @@ ul{
   display: flex;
   align-items: center;
   padding: 24px 156px;
-  border-bottom: 2px solid #E7E9FC;
+  border-bottom: 2px solid #e7e9fc;
 }
 
 .nav-bar a {
@@ -1556,7 +1554,7 @@ ul{
 }
 
 ul.menuItems a {
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
 ul.contactItems {
@@ -1571,16 +1569,16 @@ ul.contactItems a {
 }
 
 .menuItems .active a {
-  color: #404BBF;
+  color: #404bbf;
 }
 
 .menuItems .active {
   position: relative;
 }
 
-.menuItems .active::after{
-  content: '';
-  background: #404BBF;
+.menuItems .active::after {
+  content: "";
+  background: #404bbf;
   width: 100%;
   height: 5px;
   position: absolute;
@@ -1594,14 +1592,14 @@ ul.contactItems a {
   height: 1000px;
   width: 1000px;
   position: relative;
-  background-image: url('../images/contact_img.jpg'); 
+  background-image: url("../images/contact_img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
   margin-top: 8px;
   margin-right: 25px;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .contact_title {
@@ -1640,28 +1638,26 @@ ul.contactItems a {
   z-index: 3;
 }
 
-
-
 /*------------------------------ machine learning section ---------------------------*/
 .bkg-image {
   width: 100%;
   height: 275px;
   /* Sau ajustați înălțimea după preferință */
-  background-image: url('../images/machine-learning.jpg');
+  background-image: url("../images/machine-learning.jpg");
   /* Înlocuiește cu calea către imaginea ta */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.image-background-gina{
-    width: 100%;
-      height: 275px;
-      /* Sau ajustați înălțimea după preferință */
-      background-image: url('../images/gina5.jpg');
-      /* Înlocuiește cu calea către imaginea ta */
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+.image-background-gina {
+  width: 100%;
+  height: 275px;
+  /* Sau ajustați înălțimea după preferință */
+  background-image: url("../images/gina5.jpg");
+  /* Înlocuiește cu calea către imaginea ta */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .text-container {
   max-width: 1200px;
