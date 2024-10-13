@@ -1601,6 +1601,8 @@ ul.contactItems a {
 }
 
 .mainimg {
+  position: relative;
+  flex-wrap: wrap;
   margin-left: auto;
   height: 1000px;
   width: 1000px;
@@ -1639,6 +1641,7 @@ ul.contactItems a {
 }
 
 .contact_title {
+  flex-wrap: wrap;
   font-style: italic;
   display: flex;
   margin: 0px;
@@ -1647,6 +1650,7 @@ ul.contactItems a {
 }
 
 .costumer-service {
+  flex-wrap: wrap;
   flex-direction: column;
   font-weight: 500;
   margin: 0%;
