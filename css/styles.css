@@ -1961,3 +1961,12 @@ ul.contactItems a {
     font-size: 18px;
   }
 }
+
+
+.project-item img {
+  margin-bottom: 50px;
+}
+
+.project-item p {
+  margin-top: 50px;
+}
