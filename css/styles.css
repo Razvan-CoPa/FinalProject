@@ -1728,6 +1728,17 @@ ul.contactItems a {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.blockchain-image {
+  width: 100%;
+  height: 800px;
+  /* Sau ajustați înălțimea după preferință */
+  background-image: url("../images/Alin Mihalache/Test.gif");
+  /* Înlocuiește cu calea către imaginea ta */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .text-container {
   max-width: 1200px;
   margin: 20px auto;
