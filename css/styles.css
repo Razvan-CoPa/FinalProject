@@ -1621,18 +1621,6 @@ ul.contactItems a {
   margin-right: 25px;
 }
 
-/* @media screen and (min-width: 320px) {
-  .mainimg {
-    width: 320px;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  .mainimg {
-    width: 480px;
-  }
-} */
-
 @media screen and (max-width: 768px) {
   .mainimg {
     padding-left: 20px;
