@@ -1916,6 +1916,11 @@ ul.contactItems a {
   .testimonials h2 {
     font-size: 28px;
   }
+
+  .image-item {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 480px) {
