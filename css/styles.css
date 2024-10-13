@@ -1730,6 +1730,16 @@ ul.contactItems a {
   background-position: center;
   background-repeat: no-repeat;
 }
+.bkg-image-laura {
+  width: 100%;
+  height: 275px;
+  /* Sau ajustați înălțimea după preferință */
+  background-image: url("../images/laura_popa/Laura6.jpg");
+  /* Înlocuiește cu calea către imaginea ta */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .text-container {
   max-width: 1200px;
   margin: 20px auto;
