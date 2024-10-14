@@ -103,6 +103,131 @@
     </header>
     <!-- End page header -->
 
+    <!-- Slide show-->
+    <div class="slideshow-container">
+      <div class="mySlides">
+        <img src="images/slide/it.jpg" style="width: 100%; height: 800px;">
+        <div class="text">Intensive IT courses</div>
+      </div>
+      <div class="mySlides">
+        <img src="images/slide/finance.jpg" style="width: 100%; height: 800px;">
+        <div class="text">Finance courses</div>
+      </div>
+      <div class="mySlides">
+        <img src="images/slide/design.jpg" style="width: 100%; height: 800px;">
+        <div class="text">Design courses</div>
+      </div>
+      <div class="mySlides">
+        <img src="images/slide/art.jpg" style="width: 100%; height: 800px;">
+        <div class="text">Art courses</div>
+      </div>
+      <div class="mySlides">
+        <img src="images/slide/marketing.jpg" style="width: 100%; height: 800px;">
+        <div class="text">Marketing courses</div>
+      </div>
+      <div class="mySlides">
+        <img src="images/slide/graphic.jpg" style="width: 100%; height: 800px;">
+        <div class="text">Graphic courses</div>
+      </div>
+      <div class="mySlides">
+        <img src="images/slide/architecture.jpg" style="width: 100%; height: 800px;">
+        <div class="text">Architecture courses</div>
+      </div>
+      <div class="mySlides">
+        <img src="images/slide/fashion.jpg" style="width: 100%; height: 800px;">
+        <div class="text">Fashion courses</div>
+      </div>
+      <div class="mySlides">
+        <img src="images/slide/organic_design.jpg" style="width: 100%; height: 800px;">
+        <div class="text">Organic design courses</div>
+      </div>
+      <div class="mySlides">
+        <img src="images/slide/landscape_design.jpg" style="width: 100%; height: 800px;">
+        <div class="text">Landscape design courses</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+  </section>
+  <!-- End project section -->
+  
+  <style>
+    .slideshow-container {
+      position: relative;
+      max-width: 100%;
+      margin: auto;
+    }
+  
+    .mySlides {
+      display: none;
+      position: relative;
+    }
+  
+    .mySlides img {
+      width: 100%;
+      height: 800px;
+      object-fit: cover;
+    }
+  
+    .text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+    }
+  
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+  
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+  
+    .prev:hover, .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+  </style>
+  
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+  
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+  
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slides[slideIndex-1].style.display = "block";  
+    }
+  </script>
+
+    <!-- End Slide show-->
+
     <!-- Main section -->
     <main>
       <section class="portfolio-container">
