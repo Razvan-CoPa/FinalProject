@@ -67,7 +67,25 @@ All working branches, except for main and gh-pages, have been removed to keep th
 
 ![Screenshot 2025-03-02 012417](https://github.com/user-attachments/assets/42309411-b312-4e31-a05a-bca5302461da)
 
+## Munteanu Bogdan Page
 
+![Screenshot 2025-03-02 012630](https://github.com/user-attachments/assets/8d56223c-3736-44b6-bd0b-d1867fc899ef)
+
+
+## Miriam Mihaita Page
+
+![Screenshot 2025-03-02 012816](https://github.com/user-attachments/assets/46a549de-4590-4093-b2cc-35e46de1833f)
+
+## Emanuel Niculai Page
+
+![Screenshot 2025-03-02 012927](https://github.com/user-attachments/assets/0e10e3ff-3ea9-4927-a507-523ae03ad245)
+
+## Mihaela Ristachea Page
+
+![Screenshot 2025-03-02 013046](https://github.com/user-attachments/assets/296ecc1e-4960-4cd3-8ad2-637bc58f0db6)
+
+
+                         
 
 
 
