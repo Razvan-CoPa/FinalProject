@@ -34,12 +34,18 @@ All working branches, except for main and gh-pages, have been removed to keep th
 
 
 ## Design website
+
 ![Home](https://github.com/user-attachments/assets/425dc6da-5060-4cee-964a-ca96760e268b)
+
 ![Courses](https://github.com/user-attachments/assets/7fb9a1cb-e4be-4246-a31f-b7b69db7075f)
+
 ![Contact](https://github.com/user-attachments/assets/dcfb1da6-3ab8-46d1-a8af-8e0378d978f1)
 
+
 ## Presentation video
+
 https://www.youtube.com/watch?v=DmypBSLP3j0
+
 ![Screenshot 2025-03-02 011525](https://github.com/user-attachments/assets/701b590a-9bf6-4ea7-ac35-1f1dfbe99b60)
 
 
