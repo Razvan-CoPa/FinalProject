@@ -35,28 +35,39 @@ All working branches, except for main and gh-pages, have been removed to keep th
 
 ## Design website
 
-## Home
+## Home Page
 
 
 ![Home](https://github.com/user-attachments/assets/425dc6da-5060-4cee-964a-ca96760e268b)
 
-## Courses
+## Courses Page
 
 
 
 ![Courses](https://github.com/user-attachments/assets/7fb9a1cb-e4be-4246-a31f-b7b69db7075f)
 
-## Contact
+## Contact Page
 
 
 
 ![Contact](https://github.com/user-attachments/assets/dcfb1da6-3ab8-46d1-a8af-8e0378d978f1)
 
-## Razvan Paraschiva
+## Razvan Paraschiva Page
 
 
 
 ![Screenshot 2025-03-02 011800](https://github.com/user-attachments/assets/c65ec616-3fe1-49f9-9451-dd4b8a7597e9)
+
+## Alexander Andersen Page
+
+![Screenshot 2025-03-02 012310](https://github.com/user-attachments/assets/fe004c1e-a63c-4cb7-88c6-9ef1f638c342)
+
+
+## Varga Gina Page
+
+![Screenshot 2025-03-02 012417](https://github.com/user-attachments/assets/42309411-b312-4e31-a05a-bca5302461da)
+
+
 
 
 
